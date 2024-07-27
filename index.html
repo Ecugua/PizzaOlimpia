@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Planeta</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #d32f2f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #b71c1c;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ff5252;
+        }
+        .container {
+            padding: 20px;
+        }
+        .menu-item {
+            background-color: white;
+            margin: 20px 0;
+            padding: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #d32f2f;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pizzería Deliciosa</h1>
+        <p>¡Las mejores pizzas de la ciudad!</p>
+    </header>
+    <nav>
+        <a href="#menu">Menú</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="container">
+        <section id="menu">
+            <h2>Menú</h2>
+            <div class="menu-item">
+                <h3>Pizza Margarita</h3>
+                <p>Queso mozzarella, tomate fresco y albahaca.</p>
+                <p><strong>Precio:</strong> $10.00</p>
+            </div>
+            <div class="menu-item">
+                <h3>Pizza Pepperoni</h3>
+                <p>Queso mozzarella, pepperoni y salsa de tomate.</p>
+                <p><strong>Precio:</strong> $12.00</p>
+            </div>
+            <div class="menu-item">
+                <h3>Pizza Cuatro Quesos</h3>
+                <p>Queso mozzarella, queso azul, queso parmesano y queso cheddar.</p>
+                <p><strong>Precio:</strong> $14.00</p>
+            </div>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Dirección: Calle Falsa 123, Ciudad Ejemplo</p>
+            <p>Teléfono: (123) 456-7890</p>
+            <p>Email: contacto@pizzeriadeliciosa.com</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Pizzería Deliciosa. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
